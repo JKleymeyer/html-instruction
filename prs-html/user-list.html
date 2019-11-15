@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>User-List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="prs.css">
 </head>
+
 <body>
-    
+
     <nav>
         <ul>
             <li><a href="#">User</a></li>
@@ -17,32 +21,54 @@
             <li><a href="#">Request</a></li>
             <li><a href="#">Review</a></li>
             <li><a href="#">About</a></li>
-        </ul> 
+        </ul>
     </nav>
 
     <h1>User-List</h1>
 
-    <table>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>UserName</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tbody>
         <tr>
-            <th>Id</th><th>UserName</th><th>FirstName</th><th>LastName</th>
+            <td>1</td>
+            <td>JKleymeyer</td>
+            <td>Josh</td>
+            <td>Kleymeyer</td>
         </tr>
         <tr>
-            <td>1</td><td>JKleymeyer</td><td>Josh</td><td>Kleymeyer</td>
+            <td>2</td>
+            <td>SKleymeyer</td>
+            <td>Sarah</td>
+            <td>Kleymeyer</td>
         </tr>
         <tr>
-            <td>2</td><td>SKleymeyer</td><td>Sarah</td><td>Kleymeyer</td>
+            <td>3</td>
+            <td>TKleymeyer</td>
+            <td>Ted</td>
+            <td>Kleymeyer</td>
         </tr>
         <tr>
-            <td>3</td><td>TKleymeyer</td><td>Ted</td><td>Kleymeyer</td>
+            <td>4</td>
+            <td>SCalagione</td>
+            <td>Sam</td>
+            <td>Calagione</td>
         </tr>
         <tr>
-            <td>4</td><td>SCalagione</td><td>Sam</td><td>Calagione</td>
+            <td>5</td>
+            <td>GKoch</td>
+            <td>Greg</td>
+            <td>Koch</td>
         </tr>
-        <tr>
-            <td>5</td><td>GKoch</td><td>Greg</td><td>Koch</td>
-        </tr>
-
+         </tbody>
     </table>
 
 </body>
+
 </html>

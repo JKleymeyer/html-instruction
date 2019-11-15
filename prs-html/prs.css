@@ -1,0 +1,33 @@
+nav{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: 100%;
+    padding: 12px 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+td,th {
+      text-align: left;
+      padding: 5px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul a:hover{
+    color: lightgray;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
